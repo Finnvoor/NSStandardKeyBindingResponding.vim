@@ -79,21 +79,20 @@ vnoremap b <Esc>b
 vnoremap f <Esc>e
 
 " Option-shift-arrow
+nnoremap [1;10A v0
+nnoremap [1;10B v$
+nnoremap [1;10D vb
+nnoremap [1;10C ve
 
-nnoremap [1;4A v0
-nnoremap [1;4B v$
-nnoremap [1;4D vb
-nnoremap [1;4C ve
+inoremap [1;10A <Esc>v0
+inoremap [1;10B <Esc>v$
+inoremap [1;10D <Esc>vb
+inoremap [1;10C <Esc>ve
 
-inoremap [1;4A <Esc>v0
-inoremap [1;4B <Esc>v$
-inoremap [1;4D <Esc>vb
-inoremap [1;4C <Esc>ve
-
-vnoremap [1;4A 0
-vnoremap [1;4B $
-vnoremap [1;4D b
-vnoremap [1;4C e
+vnoremap [1;10A 0
+vnoremap [1;10B $
+vnoremap [1;10D b
+vnoremap [1;10C e
 
 " Command-arrow
 
